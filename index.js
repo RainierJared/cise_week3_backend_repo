@@ -6,7 +6,6 @@ const cors = require('cors');
 //For the Books
 const books = require('./routes/api/books');
 const app = express();
-app.use(cp());
 //Connect Databse
 connectDB();
 
