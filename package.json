@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of MERN practice",
+  "main": "app.js",
+  "engines" : {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainierJared/cise_ass1a_worksheet3.git"
+  },
+  "author": "Rainier Jared Botor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RainierJared/cise_ass1a_worksheet3/issues"
+  },
+  "homepage": "https://github.com/RainierJared/cise_ass1a_worksheet3#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "npm": "^9.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
